@@ -15,6 +15,7 @@ I am 25 years old. Master of Management. I strive to quickly, effectively and ra
 * **Uniwersytet Przyrodniczo-Humanistyczny w Siedlcach**
     * Business management \\ Bachelor degree
     * Management in logistics \\ Master
+
 # **Languages**
 
 * **Polish** - native speaker
