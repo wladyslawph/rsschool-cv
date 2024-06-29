@@ -20,4 +20,3 @@ I am 25 years old. Master of Management. I strive to quickly, effectively and ra
 * **Polish** - native speaker
 * **English** - A2
 * **Russian** - native speaker
----
