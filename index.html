@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>CV</title>
 </head>
 
@@ -15,17 +16,17 @@
                     <a href="#aboutme" class="nav-link">About Me</a>
                 </li>
                 <li class="nav-item">
+                    <a href="#contacts" class="nav-link">Contacts</a>
+                </li>
+                <li class="nav-item">
                     <a href="#education" class="nav-link">Education</a>
                 </li>
                 <li class="nav-item">
                     <a href="#languages" class="nav-link">Languages</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contacts" class="nav-link">Contacts</a>
-                </li>
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>                
             </ul>
         </nav>
     </div>
@@ -33,7 +34,7 @@
 <main class="main">
     <div class="container main-container">
         <section class="section section-profile" id="profile">
-            <img src="." alt="Profile Image" class="section-profile-img">
+            <img src="./64580035.JPG" alt="Profile Image" class="section-profile-img">
             <div class="section-profile-title">
                 <h1 class="section-title main-title">Wladyslaw Gierasimczyk</h1>
                 <h4 class="section-subtitle">Front-End Student</h4>
@@ -43,11 +44,11 @@
             <h2 class="section-title">Contacts</h2>
             <ul class="section-list">
                 <li class="section-item contacts-item">Siedlce, Poland</li>
-                <li class="section-item contacts-item">Email <a href="vladislavgerasimchik@gmail.com" title="Contact Email">vladislavgerasimchik@gmail.com</a></li>
-                <li class="section-item contacts-item">Github <a href="https://github.com/wladyslawph" title="Github profile">wladyslawph</a></li>
-                <li class="section-item contacts-item">Telegram <a href="https://t.me/gerasim_ph" title="TG profile">@gerasim_ph</a></li>
+                <li class="section-item contacts-item">Email <a href="vladislavgerasimchik@gmail.com" title="Contact Email" class="nav-link">vladislavgerasimchik@gmail.com</a></li>
+                <li class="section-item contacts-item">Github <a href="https://github.com/wladyslawph" title="Github profile" class="nav-link">wladyslawph</a></li>
+                <li class="section-item contacts-item">Telegram <a href="https://t.me/gerasim_ph" title="TG profile" class="nav-link">@gerasim_ph</a></li>
                 <li class="section-item contacts-item">Discord <span title="Discord nickname">gerasim.ph</span></li>
-                <li class="section-item contacts-item">Instagram <a href="https://instagram.com/gerasim.ph" title="IG profile">gerasim.ph</a></li>
+                <li class="section-item contacts-item">Instagram <a href="https://instagram.com/gerasim.ph" title="IG profile" class="nav-link">gerasim.ph</a></li>
             </ul>
         </section>
         <section class="section" id="aboutme">
@@ -56,7 +57,7 @@
         </section>
         <section class="section" id="education">
             <h2 class="section-title">Education</h2>
-            <h3 class="section-info"><a href="https://www.uws.edu.pl">University of Siedlce</a></h3>
+            <h3 class="section-item"><a href="https://www.uws.edu.pl" class="nav-link">University of Siedlce</a></h3>
             <ul class="section-list">
                 <li class="section-item education-item"><h4>Management in logistics</h4><p>Master</p></li>
                 <li class="section-item education-item"><h4>Business management</h4><p>Bachelor degree</p></li>
@@ -91,7 +92,7 @@
         <section class="section" id="courses">
             <h2 class="section-title">Courses</h2>
             <ul class="section-list">
-                <li class="section-item courses-item">RSSchool <span>- JavaScript/Front-End Developer</span></li>
+                <li class="section-item courses-item">RSSchool <span>- JavaScript/Front-End</span></li>
             </ul>
         </section>
         <section class="section" id="languages">
@@ -104,5 +105,14 @@
         </section>
     </div>
 </main>
+<footer class="footer">
+    <div class="container footer-container">
+        <div>
+            &copy; 2024
+            <a href="https://github.com/wladyslawph" class="github nav-link">wladyslawph</a>
+        </div>
+        <a href="https://rs.school/courses/javascript-ru" class="rss"><img src="https://rs.school/assets/js-secondary-CQOwGo9D.webp" alt="JS/FE course" class="image-footer"></a>            
+    </div>        
+</footer>
 </body>
 </html>
