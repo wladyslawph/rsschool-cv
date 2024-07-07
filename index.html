@@ -3,8 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>CV</title>
 </head>
-<body> Władysław Gierasimczyk
+
+<body>
+<header class="header">
+    <div class="container nav-container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#aboutme" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacts" class="nav-link">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#languages" class="nav-link">Languages</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>                
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="main">
+    <div class="container main-container">
+        <section class="section section-profile" id="profile">
+            <img src="./64580035.JPG" alt="Profile Image" class="section-profile-img">
+            <div class="section-profile-title">
+                <h1 class="section-title main-title">Wladyslaw Gierasimczyk</h1>
+                <h4 class="section-subtitle">Front-End Student</h4>
+            </div>
+        </section>
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="section-list">
+                <li class="section-item contacts-item">Siedlce, Poland</li>
+                <li class="section-item contacts-item">Email <a href="vladislavgerasimchik@gmail.com" title="Contact Email" class="nav-link">vladislavgerasimchik@gmail.com</a></li>
+                <li class="section-item contacts-item">Github <a href="https://github.com/wladyslawph" title="Github profile" class="nav-link">wladyslawph</a></li>
+                <li class="section-item contacts-item">Telegram <a href="https://t.me/gerasim_ph" title="TG profile" class="nav-link">@gerasim_ph</a></li>
+                <li class="section-item contacts-item">Discord <span title="Discord nickname">gerasim.ph</span></li>
+                <li class="section-item contacts-item">Instagram <a href="https://instagram.com/gerasim.ph" title="IG profile" class="nav-link">gerasim.ph</a></li>
+            </ul>
+        </section>
+        <section class="section" id="aboutme">
+            <h2 class="section-title">About Me</h2>
+            <p>I am 25 years old. Master of Management. I strive to quickly, effectively and rationally solve the tasks set before me. Over the last 6 years, I have been gaining experience that has developed many competencies in me, such as customer service, communication skills, team work organization and the ability to work in a team. I am currently looking for development opportunities. I want to expand my knowledge and use it in practice. I am looking for interesting development challenges.</p>
+        </section>
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <h3 class="section-item"><a href="https://www.uws.edu.pl" class="nav-link">University of Siedlce</a></h3>
+            <ul class="section-list">
+                <li class="section-item education-item"><h4>Management in logistics</h4><p>Master</p></li>
+                <li class="section-item education-item"><h4>Business management</h4><p>Bachelor degree</p></li>
+            </ul>
+        </section>        
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="section-list">
+               <li class="section-item skills-item">3D visualization:
+                <ul class="section-list">
+                    <li class="section-item skills-item">Blender</li>
+                    <li class="section-item skills-item">Adobe Substance 3D painter</li>
+                    <li class="section-item skills-item">Marmoset Toolbag</li>
+                    <li class="section-item skills-item">RizomUV</li>
+                </ul>
+               </li>
+               <li class="section-item skills-item">Graphics
+                <ul class="section-list">
+                    <li class="section-item skills-item">Adobe Photoshop</li>
+                    <li class="section-item skills-item">Adobe Lightroom Classic</li>
+                    <li class="section-item skills-item">Adobe Illustrator</li>
+                </ul>
+               </li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+            <pre class="pre">
+                <code>print('Hello, world!')</code>
+            </pre>
+        </section>
+        <section class="section" id="courses">
+            <h2 class="section-title">Courses</h2>
+            <ul class="section-list">
+                <li class="section-item courses-item">RSSchool <span>- JavaScript/Front-End</span></li>
+            </ul>
+        </section>
+        <section class="section" id="languages">
+            <h2>Languages</h2>
+            <ul class="section-list">
+                <li class="section-item languages-item">English<span> A2</span></li>
+                <li class="section-item languages-item">Polish<span> Native</span></li>
+                <li class="section-item languages-item">Russian<span> Native</span></li>
+            </ul>
+        </section>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container footer-container">
+        <div>
+            &copy; 2024
+            <a href="https://github.com/wladyslawph" class="github nav-link">wladyslawph</a>
+        </div>
+        <a href="https://rs.school/courses/javascript-ru" class="rss"><img src="https://rs.school/assets/js-secondary-CQOwGo9D.webp" alt="JS/FE course" class="image-footer"></a>            
+    </div>        
+</footer>
 </body>
 </html>
