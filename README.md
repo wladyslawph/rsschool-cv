@@ -1,1 +1,1 @@
-# rsschool-cv
+https://wladyslawph.github.io/rsschool-cv/
